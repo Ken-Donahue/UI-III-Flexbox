@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	font-size:10px;
+	max-width:80%;
+	margin:0 auto;
+}
+
+nav{
+	font-family: 'Lobster', cursive;
+	background:rgba(0,191,255,.7);
+	position:fixed;
+	top:0;
+	width:80%;
+	display:flex;
+	justify-content:space-around;
+	/* align-content:center; */
+}
+
+a{
+	color:grey;
+	min-width:9%;
+	align-self:center;
+	/* margin:10px 0 0 0; */
+	text-decoration:none;
+	/* text-align:center; */
+}
+
+.logo{
+	width:20%;
+	max-width:150px;
+}
+
+header{
+	height:45vh;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+
+	/* margin:75px 0 40px; */
+}
+
+.heading{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	width:40%;
+}
+
+header img{
+	align-self:center;
+	max-width:300px;
+}
+
+h1{
+	font-size:60px;
+	text-align:center;
+	/* margin-top:50px; */
+}
+
+button{
+	background:white;
+	min-width:30%;
+	margin:0px auto 0;
+	font-size:10px;
+	/* text-align:center; */
+}
+
+.topContent{
+	display:flex;
+	justify-content:space-between;
+}
+
+.features, .about{
+	margin-top:10px;
+	width:45%
+}
+
+/* .about{
+	float:right;
+} */
+
+.middle-img{
+	width:100%;
+	margin:20px 0 20px 0;
+}
+
+.bottomContent{
+	display:flex;
+	justify-content:space-between;
+}
+
+.services, .product, .vision{
+	width:30%;
+}
+
+.product{
+	margin:0 0 30px 4%;
+}
+
+.contact{
+	margin-top:30px;
+}
+
+.copyright{
+	text-align:center;
+	margin:50px 0 50px 0;
+}

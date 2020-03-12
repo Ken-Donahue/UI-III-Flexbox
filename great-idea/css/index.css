@@ -95,13 +95,11 @@ a{
 	max-width:150px;
 }
 
-header{
-	height:45vh;
+.indexHeader{
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
-
-	/* margin:75px 0 40px; */
+	margin:75px 0 50px;
 }
 
 .heading{
@@ -111,18 +109,18 @@ header{
 	width:40%;
 }
 
-header img{
-	align-self:center;
+.headerImage{
+	/* align-self:flex-end; */
 	max-width:300px;
 }
 
-h1{
+.indexHeader h1{
 	font-size:60px;
 	text-align:center;
 	/* margin-top:50px; */
 }
 
-button{
+.heading button{
 	background:white;
 	min-width:30%;
 	margin:0px auto 0;
@@ -139,10 +137,6 @@ button{
 	margin-top:10px;
 	width:45%
 }
-
-/* .about{
-	float:right;
-} */
 
 .middle-img{
 	width:100%;
@@ -169,4 +163,59 @@ button{
 .copyright{
 	text-align:center;
 	margin:50px 0 50px 0;
+}
+
+.services-header-img{
+	width:100%;
+	margin-top:35px;
+}
+
+section.top h1{
+	font-size:15px;
+}
+
+.firstRow{
+	display:flex;
+	justify-content:space-between;
+}
+
+.firstRow section{
+	width:45%;
+	border:1px solid black;
+	background:lightgrey;
+	padding:10px;
+	margin-top:20px;
+}
+
+.secondRow{
+	display:flex;
+	justify-content:space-between;
+}
+
+.secondRow section{
+	width:45%;
+	border:1px solid black;
+	background:lightgrey;
+	padding:10px;
+	margin-top:20px;
+}
+
+.thirdRow{
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:15px;
+}
+
+.thirdRow section{
+	width:45%;
+	border:1px solid black;
+	background:lightgrey;
+	padding:10px;
+	margin-top:20px;
+
+}
+
+button{
+	background:white;
+	margin:10px 0 5px;
 }
